@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap');
+:root {
+  --zeleniy: #a2ca28;
+  --krasniy: #fd634e;
+}
+/* HEADER */
+header {
+	position: relative;
+	height: 100vh;
+	background: url('../img/headerbg.jpg') center/cover;
+	color: #fff;
+	text-transform: uppercase;
+}
+.footerbg {
+	background: url('../img/footer.jpg') center/cover;
+	height: 100vh;
+}
+#logo, #menu, #topic { 
+	position: absolute; 
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+#logo { top: 40px; }
+#menu { top: 100px; }
+#topic { bottom: 130px; }
+#menu a {
+	font: .8em Montserrat, sans-serif;
+	color: #fff;
+}
+#h1 {
+	font: 2em Poppins, sans-serif;
+	white-space: nowrap;
+}
+h2 {
+	font: 1.5em "Open Sans", sans-serif;
+	color: #fff;
+}
+#h5 {
+	font: .93em Poppins, sans-serif;
+	text-align: right;
+	padding: 0 20px 0 0;
+}
+.h5 {
+	font: .93em Poppins, sans-serif;
+	text-align: left;
+	color: #fff;
+	padding-bottom: 30px;
+}
+#h2 { padding-top: 15px;}
+h3 {
+	padding-top: 5px;
+	text-transform: uppercase;
+	font: 2em "Open Sans", sans-serif;
+	color: var(--zeleniy);
+}
+h4 {
+	font: 2em "Open Sans", sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+h1 span { color: var(--zeleniy) }
+h5 span { color: var(--krasniy) }
+h6 {
+	color: var(--krasniy);
+	font: bold .88em Montserrat, sans-serif;
+	text-transform: uppercase;
+	padding: 40px 0 0 0;
+}
+.h1 {
+	padding-top: 200px;
+	color: #fff;
+	font: 2em "Open Sans", sans-serif!important;
+}
+.tcenter { text-align: center; }
+.centering { 
+	padding-top: 15px;
+	margin: auto;
+	display: block;
+}
+.zeleniybg { background: var(--zeleniy); }
+.krasniybg { background: var(--krasniy); }
+.beliybg { background: #fff; }
+.blackbg { background: #0c1119; }
+.row { padding: 90px 0 }
+.row1 { padding: 40px 0 }
+.col { padding: 20px;}
+.h50 { height: 50vh }
+.h40 { height: 40vh }
+.h60 { height: 60vh }
+.centering1 { 
+	text-align: center;
+	padding: 9px 0 30px 0;
+}
+.table { display: table;}
+.p1 {
+	padding-top: 32px;
+	font: .88em Poppins, sans-serif;
+	color: #fff;
+	padding-bottom: 28px;
+}
+.p2 {
+	padding: 15px 54px 20px 54px;
+	line-height: 1.8!important;
+	color: #656e74;
+	font: bold .88em "Open Sans", sans-serif;
+}
+.p3 {
+	padding-top: 25px;
+	line-height: 1.5;
+	color: #fff;
+	font: .8em "Open Sans", sans-serif;
+}
+.pf {
+	color: #7a8e9f;
+	font: .8em "Open Sans", sans-serif;
+}
+.colf { padding: 20px; }
+.white { color: #fff; }
+.tleft { text-align: left; }
+p span { color: #fff; }
+.padtop { padding-top: 22px;}
+.padl { padding-left: 54px;	}
+#padbot { padding-bottom: 80px; }
+.link {	color: #fff;}
+.link1 {
+	color: var(--zeleniy);
+	text-decoration: underline;
+	font: bold .88em "Open Sans", sans-serif;
+}
+#fitness { 
+	background: url('../img/fitness.jpg') center/cover;
+	position: relative;
+}
+#active { 	
+	position: absolute;
+	top: 80%;
+	right: 10%;
+}
+#yourbody { 
+	background: url('../img/yourbody.jpg') center/cover;
+}
+#shape {
+	float: right;
+	padding-right: 5%;	
+}
+#strw {
+	float: right;
+	padding-right: 5%;	
+}
+#august {
+	position: absolute;
+	top: 5%;
+	float: left;
+	left: 5%;
+}
+#health {
+	position: absolute;
+	bottom: 5%;
+	float: right;
+	right: 5%;
+}
+#name {
+	border-radius: 5px;
+	padding: 9px 50px 10px 9px;
+	border: 0;
+	margin: 0 0 10px 20px;
+}
+#email {
+	border-radius: 5px;
+	padding: 9px 70px 10px 9px;
+	border: 0;
+	margin: 0 0 10px 20px;
+}
+#submit {
+	border-radius: 5px;	
+	padding: 9px 30px 10px 9px;
+	background-color: var(--zeleniy);
+	border: 0;
+	margin: 0 20px 10px 20px;
+}
+#ten { box-shadow: -5px 0 20px gray;}
+#product { padding: 10% 0 0 8%; }
+#run { background: url('../img/run.jpg') center/cover; }
+#man { 
+	background: url('../img/man.jpg') center/cover;
+	position: relative;}
+#mango { background: url('../img/mango.jpg') center/cover; }
+#grape { background: url('../img/grape.jpg') center/cover; }
+@media only screen and (min-width: 768px) {
+	.container {
+		max-width: 1180px;
+		margin: auto;
+	}
+	#product { padding: 40% 0 0 30px; }
+	h1 { font-size: 2.5em }
+	h3 { font-size: 2.2em }
+	h4 { padding-top: 25px;}
+	#h2 { 
+		font-size: .88em;
+		padding-top: 40px;
+	}
+	#august {
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	}
+	#health {
+	position: absolute;
+	top: 5%;
+	right: 5%;
+	}
+	#fitness { 
+		background: url('../img/fitness.jpg') center/cover;
+		position: relative;
+	}
+	.colf {
+		float: left;
+		width: 400px;
+		margin-right: 20px;
+		padding: 20px 0 40px 0;
+	}
+	.colf:last-child {
+		width: 340px;
+		margin-right: 0px;
+	}
+	#name { margin-left: 500px;  }
+	#active { 	
+		top: 80%;
+		right: 10%;
+	}
+	#logo, #menu, #topic { 
+		left: inherit;
+		transform: inherit;
+	}
+	#logo { left: 50px }
+	#menu { 
+		top: 60px; 
+		right: 60px;
+	}
+	#menu li { 
+		display: inline-block;
+		margin: 0 30px;
+	}
+	#topic { left: 115px }
+	.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+	.padr { padding-right: 13px; }
+	.padtop2 { padding-top: 40px;}
+	.padtop { padding-top: 60px;}
+	.padtop1 { padding-top: 3px;}
+	.col {
+		float: left;
+		width: 24%;
+		margin: 0 1% 0 0;
+	}
+	.col:last-child { margin: 0;}
+	#col1 {width: 34%;}
+	#col2 {	width: 66%;}
+	#h1 { font-size: 2.5em; }
+	#grape { width: 100%;}
+	#mango { width: 100%;}
+	.w1 { width: 34% }
+	.w2 { width: 66% }
+	.fleft { float: left }
+	.fright { float: right }
+}
